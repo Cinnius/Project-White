@@ -1,0 +1,48 @@
+/* Fonts */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Electrolize', sans-serif;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Root Variable */
+:root {
+    --color-main: rgb(6, 57, 108);
+    --color-main-75: rgba(6, 57, 108, 0.75);
+}
+
+/* Basic Style */
+.text-main-c {
+    color: var(--color-main);
+}
+
+.bg-main-c {
+    background-color: var(--color-main);
+}
+
+/* Header */
+.header-bg {
+    background: linear-gradient(var(--color-main-75), var(--color-main-75)), url(./media/header.jpg), no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Navbar */
+.nav-bg {
+    background-color: var(--color-main);
+    height: 100px;
+}
+
+.nav-img {
+    margin-left: 50px;
+    margin-right: 15px;
+    height: 50px;
+}
+
+.nav-link {
+    margin: 0px 10px;
+    border-left: 3px solid white;
+    padding: 0px 30px;
+}

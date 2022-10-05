@@ -22,11 +22,15 @@ p {
     background-color: var(--color-main);
 }
 
+.big-fs {
+    font-size: 110px;
+}
+
 /* Header */
 .header-bg {
     background: linear-gradient(var(--color-main-75), var(--color-main-75)), url(./media/header.jpg), no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 /* Navbar */

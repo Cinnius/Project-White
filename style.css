@@ -50,3 +50,12 @@ p {
     border-left: 3px solid white;
     padding: 0px 30px;
 }
+
+/* Second Section */
+.Second-Header-bg {
+    background: linear-gradient(var(--color-main-75), var(--color-main-75)), url(./media/power-plant.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+    background-size: cover;
+    height: 60vh;
+}

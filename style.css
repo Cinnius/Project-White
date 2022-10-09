@@ -68,11 +68,12 @@ p {
     left: 0px;
 }
 
-.blue-article img {
-    height: auto;
-    width: 75%;
-    margin-left: 15%;
-}
+    /* Image inside blue-article */
+    .blue-article img {
+        height: auto;
+        width: 70%;
+        margin-left: 15%;
+    }
 
 .white-article {
     z-index: 2;
@@ -80,4 +81,13 @@ p {
     background-color: white;
     padding-left: 72px;
     margin-left: 0px;
+}
+
+/* Third Section */
+.btn-main {
+    background-color: var(--color-main);
+    color: white;
+    border: unset;
+    margin: 0 auto;
+    padding: .5rem 4rem;
 }

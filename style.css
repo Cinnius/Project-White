@@ -51,11 +51,33 @@ p {
     padding: 0px 30px;
 }
 
-/* Second Section */
+/* Second Header */
 .Second-Header-bg {
     background: linear-gradient(var(--color-main-75), var(--color-main-75)), url(./media/power-plant.jpg);
     background-repeat: no-repeat;
     background-position: 50% 15%;
     background-size: cover;
     height: 60vh;
+}
+
+/* Second Section */
+.blue-article {
+    background-color: var(--color-main);
+    border: 5px solid white;
+    top: -17%;
+    left: 0px;
+}
+
+.blue-article img {
+    height: auto;
+    width: 75%;
+    margin-left: 15%;
+}
+
+.white-article {
+    z-index: 2;
+    width: 43%;
+    background-color: white;
+    padding-left: 72px;
+    margin-left: 0px;
 }

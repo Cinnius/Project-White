@@ -91,3 +91,42 @@ p {
     margin: 0 auto;
     padding: .5rem 4rem;
 }
+
+/* Fourth Section */
+.card-1, .card-2, .card-3, .card-4 {
+    height: 250px;
+    position: relative;
+    background: linear-gradient(to right, rgba(61, 92, 148, 0.6), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+    /* Card Text */
+    .card-1 > div, .card-2 > div, .card-3 > div, .card-4 > div {
+        position: absolute;
+        top: 60px;
+        left: 45px;
+    }
+    /* Card Decoration */
+    .card-1::before, .card-2::before, .card-3::before, .card-4::before {
+        content: "";
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    /* Card 1 Background */
+    .card-1::before {
+        background: url(https://picsum.photos/700/400) center top no-repeat;
+    }
+    /* Card 2 Background */
+    .card-2::before {
+        background: url(https://picsum.photos/700/401) center top no-repeat;
+    }
+    /* Card 3 Background */
+    .card-3::before {
+        background: url(https://picsum.photos/700/402) center top no-repeat;
+    }
+    /* Card 4 Background */
+    .card-4::before {
+        background: url(https://picsum.photos/700/403) center top no-repeat;
+    }

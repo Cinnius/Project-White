@@ -11,6 +11,7 @@ p {
 :root {
     --color-main: rgb(6, 57, 108);
     --color-main-75: rgba(6, 57, 108, 0.75);
+    --color-main-50: rgba(6, 57, 108, 0.5);
 }
 
 /* Basic Style */
@@ -93,19 +94,20 @@ p {
 }
 
 /* Fourth Section */
-.card-1, .card-2, .card-3, .card-4 {
+/* Fourth Section Card Dimension and Decoration */
+.sec4-card-1, .sec4-card-2, .sec4-card-3, .sec4-card-4 {
     height: 250px;
     position: relative;
     background: linear-gradient(to right, rgba(61, 92, 148, 0.6), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 }
-    /* Card Text */
-    .card-1 > div, .card-2 > div, .card-3 > div, .card-4 > div {
+    /* Fourth Section Card Text */
+    .sec4-card-1 > div, .sec4-card-2 > div, .sec4-card-3 > div, .sec4-card-4 > div {
         position: absolute;
         top: 60px;
         left: 45px;
     }
-    /* Card Decoration */
-    .card-1::before, .card-2::before, .card-3::before, .card-4::before {
+    /* Fourth Section Card Background Image Position */
+    .sec4-card-1::before, .sec4-card-2::before, .sec4-card-3::before, .sec4-card-4::before {
         content: "";
         position: absolute;
         top: 30px;
@@ -114,19 +116,73 @@ p {
         height: 100%;
         z-index: -1;
     }
-    /* Card 1 Background */
-    .card-1::before {
+    /* Fourth Section Card 1 Background Image */
+    .sec4-card-1::before {
         background: url(https://picsum.photos/700/400) center top no-repeat;
     }
-    /* Card 2 Background */
-    .card-2::before {
+    /* Fourth Section Card 2 Background Image */
+    .sec4-card-2::before {
         background: url(https://picsum.photos/700/401) center top no-repeat;
     }
-    /* Card 3 Background */
-    .card-3::before {
+    /* Fourth Section Card 3 Background Image */
+    .sec4-card-3::before {
         background: url(https://picsum.photos/700/402) center top no-repeat;
     }
-    /* Card 4 Background */
-    .card-4::before {
+    /* Fourth Section Card 4 Background Image */
+    .sec4-card-4::before {
         background: url(https://picsum.photos/700/403) center top no-repeat;
+    }
+
+/* Third Header */
+
+.Third-Header-bg {
+    background-color: var(--color-main);
+    height: 40vh;
+}
+
+.Third-Header-bg > h2 {
+    top: 40%;
+}
+
+/* Fifth Section */
+/* Fifth Section Position of the Card */
+.sec5-card {
+    position: absolute;
+    width: 100%;
+    top: -140px;
+}
+    /* Fifth Section Card 1 Background Image*/
+    .sec5-card-1 {
+        background: linear-gradient(var(--color-main-50), var(--color-main-50)), url(./media/sun.png);
+        background-position: center 60%;
+    }
+    /* Fifth Section Card 2 Background Image*/
+    .sec5-card-2 {
+        background: linear-gradient(var(--color-main-50), var(--color-main-50)), url(./media/wind.png);
+        background-position: center 60%;
+        background-size: cover;
+    }
+    /* Fifth Section Card 3 Background Image*/
+    .sec5-card-3 {
+        background: linear-gradient(var(--color-main-50), var(--color-main-50)), url(./media/wave.png);
+        background-position: center 60%;
+        background-size: cover;
+    }
+    /* Fifth Section Card 4 Background Image*/
+    .sec5-card-4 {
+        background: linear-gradient(var(--color-main-50), var(--color-main-50)), url(./media/gas.png);
+        background-position: center 60%;
+        background-size: cover;
+    }
+    /* Fifth Section Card 5 Background Image*/
+    .sec5-card-5 {
+        background: linear-gradient(var(--color-main-50), var(--color-main-50)), url(./media/oil.png);
+        background-position: center 60%;
+        background-size: cover;
+    }
+    /* Fifth Section Card 6 Background Image*/
+    .sec5-card-6 {
+        background: linear-gradient(var(--color-main-50), var(--color-main-50)), url(./media/nuclear.png);
+        background-position: center 60%;
+        background-size: cover;
     }

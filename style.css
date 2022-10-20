@@ -40,10 +40,13 @@ p {
     height: 100px;
 }
 
+.logo-img {
+    height: 50px;
+}
+
 .nav-img {
     margin-left: 50px;
     margin-right: 15px;
-    height: 50px;
 }
 
 .nav-link {
@@ -216,3 +219,16 @@ p {
         width: 70%;
         background-color: var(--color-main);
     }
+
+/* Footer */
+/* Footer Blue Link Section */
+footer {
+    margin-top: 200px;
+}
+
+.blue-footer {
+    position: absolute;
+    top: -120px;
+    right: 150px;
+    padding: 30px 0px 150px 50px;
+}

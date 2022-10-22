@@ -23,6 +23,10 @@ p {
     background-color: var(--color-main);
 }
 
+.medium-fs {
+    font-size: 25px;
+}
+
 .big-fs {
     font-size: 110px;
 }
@@ -37,7 +41,7 @@ p {
 /* Navbar */
 .nav-bg {
     background-color: var(--color-main);
-    height: 100px;
+    height: 10vh;
 }
 
 .logo-img {
@@ -231,4 +235,39 @@ footer {
     top: -120px;
     right: 150px;
     padding: 30px 0px 150px 50px;
+}
+
+/* Responsive Tablet */
+@media screen and (max-width: 992px) {
+    /* Basic Style */
+    
+    /* Header */
+    .header-bg{
+        height: 85vh;
+    }
+    /* Navbar */
+    .nav-bg{
+        height: 15vh;
+    }
+}
+
+/* Responsive Mobile */
+@media screen and (max-width: 576px) {
+    /* Basic Style */
+    .medium-fs {
+        font-size: 16px;
+    }
+
+    .big-fs {
+        font-size: 50px;
+    }
+
+    /* Header */
+    .header-bg{
+        height: 78vh;
+    }
+    /* Navbar */
+    .nav-bg{
+        height: 22vh;
+    }
 }

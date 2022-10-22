@@ -70,6 +70,7 @@ p {
 
 /* Second Section */
 .blue-article {
+    position: absolute;
     background-color: var(--color-main);
     border: 5px solid white;
     top: -17%;
@@ -81,6 +82,10 @@ p {
         height: auto;
         width: 70%;
         margin-left: 15%;
+    }
+    /* Text inside blue-article */
+    .blue-article p {
+        width: 85%;
     }
 
 .white-article {
@@ -245,9 +250,40 @@ footer {
     .header-bg{
         height: 85vh;
     }
+
     /* Navbar */
     .nav-bg{
         height: 15vh;
+    }
+
+    /* Second Header */
+    .Second-Header-bg {
+        height: 45vh;
+    }
+
+    /* Second Section */
+    .blue-article {
+        position: relative;
+        border: unset;
+    }
+
+        /* Image inside blue-article */
+        .blue-article img {
+            height: auto;
+            width: 100%;
+            margin-left: 0%;
+        }
+        /* Text inside blue-article */
+        .blue-article p {
+            width: 100%;
+        }
+
+    .white-article {
+        z-index: 2;
+        width: 100%;
+        background-color: white;
+        padding-left: 72px;
+        margin-left: 0px;
     }
 }
 
@@ -257,7 +293,6 @@ footer {
     .medium-fs {
         font-size: 16px;
     }
-
     .big-fs {
         font-size: 50px;
     }
@@ -266,8 +301,14 @@ footer {
     .header-bg{
         height: 78vh;
     }
+
     /* Navbar */
     .nav-bg{
         height: 22vh;
+    }
+
+    /* Second Header */
+    .Second-Header-bg {
+        height: 60vh;
     }
 }
